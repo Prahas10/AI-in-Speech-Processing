@@ -2,7 +2,7 @@
 
 ## Course Learnings
 
-## Librosa
+## Lab 1 - Librosa
 
 Librosa is a powerful Python library for working with audio data. Throughout the course, we covered various aspects of Librosa, including:
 
