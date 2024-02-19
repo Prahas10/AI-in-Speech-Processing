@@ -22,3 +22,13 @@ Librosa is a powerful Python library for working with audio data. Throughout the
 
 - **Analyzing Zero Crossings in the First Derivative Signal**<br>
   Analyzing the zero crossings in the first derivative signal provides insights into the local variations and trends of the original signal. By examining the locations and frequencies of these zero crossings, patterns and anomalies in the original signal can be identified. This analysis is particularly useful in applications such as motion detection, audio processing, and biomedical signal analysis, where understanding the dynamics of the signal is crucial.
+
+## Lab 3 - librosa.trim(), librosa.split()
+
+- **Trim Silence from Speech Signal (librosa.effects.trim())**<br>
+
+The `librosa.effects.trim()` function is utilized to remove silence segments from the beginning and end of a recorded speech signal. By setting an appropriate threshold, this function automatically detects and trims silence portions, thereby focusing on the active speech segments. This process enhances the clarity and intelligibility of the speech signal, making it more suitable for analysis or playback.
+
+- **Split Speech Signal with Detected Silences (librosa.effects.split())**<br>
+
+The `librosa.effects.split()` function allows for the segmentation of a recorded speech signal based on detected silences. By adjusting the `top_db` parameter, users can control the sensitivity of silence detection, influencing the quality and granularity of the resulting split segments. This capability enables the isolation of distinct speech segments, facilitating further analysis or processing of individual segments.
